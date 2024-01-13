@@ -1,0 +1,46 @@
+|tri_gen
+clk => d_out[8]~reg0.CLK
+clk => d_out[7]~reg0.CLK
+clk => d_out[6]~reg0.CLK
+clk => d_out[5]~reg0.CLK
+clk => d_out[4]~reg0.CLK
+clk => d_out[3]~reg0.CLK
+clk => d_out[2]~reg0.CLK
+clk => d_out[1]~reg0.CLK
+clk => d_out[0]~reg0.CLK
+clk => con[7].CLK
+clk => con[6].CLK
+clk => con[5].CLK
+clk => con[4].CLK
+clk => con[3].CLK
+clk => con[2].CLK
+clk => con[1].CLK
+clk => con[0].CLK
+res => d_out[8]~reg0.ACLR
+res => d_out[7]~reg0.ACLR
+res => d_out[6]~reg0.ACLR
+res => d_out[5]~reg0.ACLR
+res => d_out[4]~reg0.ACLR
+res => d_out[3]~reg0.ACLR
+res => d_out[2]~reg0.ACLR
+res => d_out[1]~reg0.ACLR
+res => d_out[0]~reg0.ACLR
+res => con[7].ACLR
+res => con[6].ACLR
+res => con[5].ACLR
+res => con[4].ACLR
+res => con[3].ACLR
+res => con[2].ACLR
+res => con[1].ACLR
+res => con[0].ACLR
+d_out[0] <= d_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[1] <= d_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[2] <= d_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[3] <= d_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[4] <= d_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[5] <= d_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[6] <= d_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[7] <= d_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[8] <= d_out[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
